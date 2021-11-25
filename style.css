@@ -45,16 +45,16 @@
 }
 
 ul {
-  margin:0;
-  padding: 0px;
+  margin: 0;
+  padding: 0;
 }
 
 .page-list__item, .page__subtitle {
-  list-style:none;
+  list-style: none;
 }
 
 .page__input, .button{
-  outline:none;
+  outline: none;
 }
 
 .button {
@@ -159,14 +159,14 @@ ul {
 /* Edit Task */
 
 .page-list__item .page__input_text {
-  display:none
+  display: none
 }
 
 .page-list__item.edit-mode .page__input_text {
-  display:inline-block;
-  width:224px
+  display: inline-block;
+  width: 224px
 }
 
 .page-list__item.edit-mode .page__label {
-  display:none;
+  display: none;
 }
