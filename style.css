@@ -5,18 +5,18 @@
   font-family: Lato, sans-serif;
 }
 
-.top-page {
+.header {
   width: 500px;
   margin: 0 auto;
   display: block;
   text-align: right;
 }
 
-.top-page__img {
+.header__img {
   width: 100%;
 }
 
-.top-page .more-info {
+.header__more-information {
   font-family: fantasy, cursive;
 }
 
@@ -28,7 +28,7 @@
 
 }
 
-.centered-main-page-elem {
+.main {
   display: block;
   width: 500px;
   margin: 0 auto 0;
@@ -40,7 +40,7 @@
   flex-grow: 1;
 }
 
-.task-row-wrapper {
+.add-item__wrapper {
   display: flex;
 }
 
@@ -49,12 +49,12 @@ ul {
   padding: 0;
 }
 
-.page-list__item, 
-.page__subtitle {
+.list__item, 
+.subtitle {
   list-style: none;
 }
 
-.page__input, .button {
+.input, .button {
   outline: none;
 }
 
@@ -75,7 +75,7 @@ ul {
 /* Heading */
 
 .page__subtitle,
-.page__new-task {
+.new-task {
   color: #333;
   font-weight: 700;
   font-size: 15px;
@@ -85,7 +85,7 @@ ul {
   text-transform: uppercase;
 }
 
-.page__input_text {
+.input-text {
   margin: 0;
   font-size: 18px;
   line-height: 18px;
@@ -98,13 +98,13 @@ ul {
   color: #888;
 }
 
-.page__input_text:focus {
+.input-text:focus {
   color: #333;
 }
 
 /* New Task */
 
-.page__new-task {
+.new-task {
   display: block;
   margin: 0 0 20px;
 }
@@ -115,7 +115,7 @@ ul {
 
 /* Task list */
 
-.page-list__item {
+.list__item {
   overflow: hidden;
   padding: 20px 0;
   border-bottom: 1px solid #eee;
@@ -125,18 +125,18 @@ ul {
   align-items: center;
 }
 
-.page__input_checkbox {
+.input-checkbox {
   margin: 0 10px;
 }
 
-.page-list__item .page__label {
+.list__item .label {
   padding-left: 10px;
   box-sizing: border-box;
   font-size: 18px;
   width: 226px;
 }
 
-.page-list__item .page__input_text  {
+.list__item .input-text  {
   width: 226px;
 }
 
@@ -152,22 +152,22 @@ ul {
 
 /* Completed */
 
-#completed-tasks .page__label {
+#completed-tasks .label {
   text-decoration: line-through;
   color: #888;
 }
 
 /* Edit Task */
 
-.page-list__item .page__input_text {
+.list__item .input-text {
   display: none;
 }
 
-.page-list__item.edit-mode .page__input_text {
+.list__item.edit-mode .input-text {
   display: inline-block;
   width: 224px
 }
 
-.page-list__item.edit-mode .page__label {
+.list__item.edit-mode .label {
   display: none;
 }
