@@ -49,11 +49,12 @@ ul {
   padding: 0;
 }
 
-.page-list__item, .page__subtitle {
+.page-list__item, 
+.page__subtitle {
   list-style: none;
 }
 
-.page__input, .button{
+.page__input, .button {
   outline: none;
 }
 
